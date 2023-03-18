@@ -21,10 +21,10 @@ const Hero = () => {
                       </Link>
             <div className="flex mt-8">
               <Link href="/#project" className={heroStyles.button}>View works</Link>
-                          <button className={heroStyles.button2}>
+                          <a href="https://docs.google.com/document/d/1P8H-xA9n5y-Hy9wE5ejuNv-7Je_9S0ovAvZJ6isAfXI/edit?usp=sharing" className={heroStyles.button2}>
                               <FaDownload />
                               resume
-                          </button>
+                          </a>
             </div>
           </div>
           <div className={heroStyles.extras}>
