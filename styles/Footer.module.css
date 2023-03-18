@@ -1,8 +1,10 @@
 .section {
     width: 100vw;
     max-width: 100%;
-    background: #000;
+    /* background: #000; */
     color: #fff;
+    /* background: #23262b; */
+    background-color: #000;
     padding: 40px 0 0 0;
 }
 
@@ -34,7 +36,8 @@
     display: flex;
     align-items: center;
     color: rgb(146, 143, 143);
-    background-color: rgb(42, 42, 42);
+    background: #23262b;
+    /* background-color: rgb(42, 42, 42); */
 }
 
 .container img{

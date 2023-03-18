@@ -36,14 +36,14 @@ const Navbar = () => {
         <ul className="flex text-white items-center">
           <Link
             href="/"
-            className={pathname === "/" ? "ml-4 border-b-4" : "ml-4"}
+            className={pathname === "/" ? "ml-4 border-b-4 border-sky-300" : "ml-4"}
           >
             Home
           </Link>
           <Link href="/#project"  className="ml-4 cursor-pointer">Work</Link>
           <Link
             href="/about"
-            className={pathname === "/about" ? "ml-4 border-b-4" : "ml-4"}
+            className={pathname === "/about" ? "ml-4 border-b-4 border-sky-400" : "ml-4"}
           >
             About me
           </Link>

@@ -4,7 +4,9 @@
         margin-top: 100px;
     width: 100vw;
     max-width: 100%;
-    background: #23262b;
+    /* background: #23262b; */
+    background-color: #000;
+    padding: 20px 0;
 }
 
 
@@ -39,7 +41,6 @@
     height: fit-content;
     border-radius: 6px;
     border: 1px solid rgb(65, 64, 64);
-    /* box-shadow: 0 0 10px 2px fuchsia; */
     margin: 10px;
     text-align: center;
     padding: 0 0 20px 0;
