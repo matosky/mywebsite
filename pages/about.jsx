@@ -22,21 +22,21 @@ const About = () => {
       <Navbar />
       <section className={aboutStyles.section}>
         <div className={aboutStyles.container}>
-          <div className="header grid mb-10 grid-cols-2 justify-between">
+          <div className="header grid mb-10 grid-cols-1 md:grid-cols-2 justify-between">
             <div className={aboutStyles.img}>
               <Image width={600} height={600} src="/me.jpg" alt="..." />
             </div>
             <div className={aboutStyles.right}>
-              <div>
-                <h1>Mathias Akari</h1>
-                <p>Full Stack Developer, Passionate learner</p>
+              <div className="md:justify-start">
+                <h1 className="text-center md:text-start">Mathias Akari</h1>
+                <p className="text-center md:text-start">Full Stack Developer, Passionate learner</p>
               </div>
             </div>
           </div>
           <hr />
           <section className={aboutStyles.des}>
-            <h5>Hi there! Thanks for visiting my portfolio.</h5>
-            <p>
+            <h5 className="text-center md:text-start">Hi there! Thanks for visiting my portfolio.</h5>
+            <p className="text-justify md:text-start">
               I'm <span className={aboutStyles.bold}>Mathias Akari,</span> a
               Full Stack Developer, and a passionate learner. I am a graduate of
               Electrical/Electronics Engineering from{" "}

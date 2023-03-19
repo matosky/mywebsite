@@ -3,8 +3,8 @@ import Image from "next/image"
 
 const Tools = () => {
     return ( 
-        <section>
-            <div className={aboutStyles.container}>
+        <section className={aboutStyles.container}>
+            <div className={aboutStyles.toolSection}>
                 <h1 className={aboutStyles.toolH1}>Tools, Languages & Frameworks/Libraries</h1>
                 <div className={aboutStyles.toolGrid}>
                     <div className={aboutStyles.toolBox}>
