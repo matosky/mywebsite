@@ -1,0 +1,46 @@
+
+
+.box{
+    width: 30px;
+    max-width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 4000;
+    display: none;
+}
+
+.box span{
+    width: 100%;
+    max-width: 100%;
+    height: 3px;
+    margin: 5px 0;
+    display: block;
+    background-color: rgb(9, 173, 238);
+    transition: all 0.3s ease;
+}
+
+.box .span2 {
+    display: none;
+}
+
+.box .span1{
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.box .span3 {
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+
+
+@media screen and (max-width: 765px) {
+    .box{
+        display: block;
+    }
+}
