@@ -3,6 +3,7 @@
 .box{
     position: fixed;
     width: 400px;
+    max-width: 100%;
     height: fit-content;
     top: 30%;
     left: 50%;
@@ -18,11 +19,13 @@
 
 .box form{
     width: 100%;
+    max-width: 100%;
     height: fit-content;
 }
 
 .div{
     width: 100%;
+    max-width: 100%;
     display: flex;
     align-items: center;
     position: relative;
@@ -34,6 +37,7 @@
 
 .box input{
     width: 100%;
+    max-width: 100%;
     border-radius: 3px;
         max-width: 100%;
     height: 40px;
@@ -84,4 +88,10 @@
 
 .move{
     top: 0;
+}
+
+@media screen and (max-width: 450px) {
+    .box{
+        width: 300px;
+    }
 }
