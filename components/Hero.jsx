@@ -19,7 +19,7 @@ const Hero = () => {
                           Know more about me
                           <FaChevronRight width={30} height={30}  />
                       </Link>
-            <div className="flex mt-8">
+            <div className="flex w-full items-center justify-center  mt-8">
               <Link href="/#project" className={heroStyles.button}>View works</Link>
                           <a href="https://docs.google.com/document/d/1P8H-xA9n5y-Hy9wE5ejuNv-7Je_9S0ovAvZJ6isAfXI/edit?usp=sharing" className={heroStyles.button2}>
                               <FaDownload />

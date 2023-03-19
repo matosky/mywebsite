@@ -53,3 +53,37 @@
     background-color: rgb(9, 173, 238);
 }
 
+
+@media screen and (max-width: 765px) {
+   .container {
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+        .left{
+            text-align: center;
+        }
+
+        .right{
+            margin-top: 10px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: 0;
+        }
+
+        .right .btn1{
+            margin-bottom: 15px;
+            transform: scale(0.8);
+        }
+
+        .right button{
+            transform: scale(0.8);
+        }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 95%;
+    }
+}

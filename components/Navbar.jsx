@@ -33,7 +33,7 @@ const Navbar = () => {
           <Image width={50} height={50} src="/favic.png" alt="..." />
           <span>KARI</span>
         </Link>
-        <ul className="flex text-white items-center">
+        <ul className="hidden md:display-block md:flex text-white items-center">
           <Link
             href="/"
             className={pathname === "/" ? "ml-4 border-b-4 border-sky-300" : "ml-4"}

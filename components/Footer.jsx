@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className={footerStyles.section}>
       <div className={footerStyles.container}>
-        <div className="flex items-center justify-between w-full">
+        <div className="flex items-center flex-col justify-between w-full md:flex-row">
           <span>Let's Connect</span>
           <div className="flex items-center ">
             <a href="mail:akaridow@gmail.com">
@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={footerStyles.bd}></div>
-        <div className="flex flex-col my-4">
+        <div className="flex w-full items-center justify-center md:justify-start md:items-start flex-col my-4 ">
           <a href="fff">Report</a>
           <a href="fff">Feedback</a>
           <a href="fff">Privacy Policy</a>

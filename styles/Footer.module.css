@@ -55,3 +55,17 @@
 .container span{
     font-size: 32px;
 }
+
+@media screen and (max-width: 765px) {
+.bottomCont {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 95%;
+    }
+}
